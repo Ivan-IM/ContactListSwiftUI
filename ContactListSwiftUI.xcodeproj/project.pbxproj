@@ -11,6 +11,10 @@
 		CFC93F4F26C2375E00155191 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC93F4E26C2375E00155191 /* ContentView.swift */; };
 		CFC93F5126C2375F00155191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC93F5026C2375F00155191 /* Assets.xcassets */; };
 		CFC93F5426C2375F00155191 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC93F5326C2375F00155191 /* Preview Assets.xcassets */; };
+		CFC93F5F26C238A800155191 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC93F5E26C238A800155191 /* Person.swift */; };
+		CFC93F6126C238EA00155191 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC93F6026C238EA00155191 /* ContactListView.swift */; };
+		CFC93F6326C2392800155191 /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC93F6226C2392800155191 /* ContactInfoView.swift */; };
+		CFC93F6526C2394B00155191 /* SectionContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC93F6426C2394B00155191 /* SectionContactListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		CFC93F5026C2375F00155191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC93F5326C2375F00155191 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFC93F5526C2375F00155191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC93F5E26C238A800155191 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CFC93F6026C238EA00155191 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		CFC93F6226C2392800155191 /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		CFC93F6426C2394B00155191 /* SectionContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionContactListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		CFC93F4B26C2375E00155191 /* ContactListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CFC93F5D26C2389800155191 /* Manger */,
+				CFC93F5C26C2389100155191 /* View */,
+				CFC93F5B26C2388100155191 /* Model */,
 				CFC93F4C26C2375E00155191 /* ContactListSwiftUIApp.swift */,
 				CFC93F4E26C2375E00155191 /* ContentView.swift */,
 				CFC93F5026C2375F00155191 /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				CFC93F5326C2375F00155191 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFC93F5B26C2388100155191 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFC93F5E26C238A800155191 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFC93F5C26C2389100155191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFC93F6026C238EA00155191 /* ContactListView.swift */,
+				CFC93F6226C2392800155191 /* ContactInfoView.swift */,
+				CFC93F6426C2394B00155191 /* SectionContactListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFC93F5D26C2389800155191 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC93F5F26C238A800155191 /* Person.swift in Sources */,
 				CFC93F4F26C2375E00155191 /* ContentView.swift in Sources */,
 				CFC93F4D26C2375E00155191 /* ContactListSwiftUIApp.swift in Sources */,
+				CFC93F6526C2394B00155191 /* SectionContactListView.swift in Sources */,
+				CFC93F6126C238EA00155191 /* ContactListView.swift in Sources */,
+				CFC93F6326C2392800155191 /* ContactInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
