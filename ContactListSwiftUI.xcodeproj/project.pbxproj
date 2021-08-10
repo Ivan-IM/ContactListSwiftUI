@@ -60,7 +60,6 @@
 		CFC93F4B26C2375E00155191 /* ContactListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CFC93F5D26C2389800155191 /* Manger */,
 				CFC93F5C26C2389100155191 /* View */,
 				CFC93F5B26C2388100155191 /* Model */,
 				CFC93F4C26C2375E00155191 /* ContactListSwiftUIApp.swift */,
@@ -96,13 +95,6 @@
 				CFC93F6426C2394B00155191 /* SectionContactListView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		CFC93F5D26C2389800155191 /* Manger */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
